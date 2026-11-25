@@ -1,80 +1,61 @@
-## Análise de Dataset
+# Análise de Dataset
 
-Atividade trabalhou a **análise de um conjunto de dados (dataset)** utilizando Java.
+Atividade 04 da disciplina **Java II — Tópicos Avançados**, da Pós-Graduação em Desenvolvimento Java.
 
-O objetivo foi aplicar os recursos da linguagem para leitura, transformação, filtragem e análise das informações presentes no conjunto de dados.
+Análise de um **conjunto de dados (dataset)** usando Java. O objetivo foi aplicar os recursos da linguagem para ler, transformar, filtrar e analisar as informações, convertendo dados brutos em informações úteis.
 
-#### Principais conceitos trabalhados
+## 🧠 Conceitos aplicados
 
-- Leitura e processamento de dados.
-- Manipulação de coleções.
-- Uso de Streams.
-- Operações de `filter`, `map`, `sorted`, `collect` e agregações.
-- Organização e transformação dos dados.
-- Consultas sobre o dataset.
-- Tratamento dos resultados.
-- Programação funcional utilizando recursos da API de Streams.
-- Uso de recursos modernos do Java para tornar o processamento mais expressivo.
+- Leitura e processamento de dados
+- Manipulação de coleções
+- **Streams** e programação funcional
+- Operações como `filter`, `map`, `sorted`, `collect` e agregações
+- Organização e transformação dos dados
+- Consultas sobre o dataset
+- Tratamento dos resultados
+- Recursos modernos do Java para um processamento mais expressivo
 
-A atividade demonstra como recursos da linguagem podem ser combinados para transformar um conjunto de dados bruto em informações úteis para análise.
+## 🛠️ Tecnologias
 
----
+Java · Maven · Streams API · IntelliJ IDEA · Git · GitHub
 
-## 🧠 Principais conceitos estudados
+## 🗂️ Estrutura do projeto
 
-Ao longo das quatro atividades foram trabalhados diversos recursos importantes do Java moderno:
+```text
+.
+├── src/
+├── pom.xml
+└── README.md
+```
 
-### Java moderno
+## ▶️ Como executar
 
-- Pattern Matching
-- Records
-- Sealed Classes
-- Generics
-- Type Erasure
-- Reflection
-- Annotations
-- `BigDecimal`
-- `LocalDateTime`
-- Streams
-- Programação funcional
-- `CompletableFuture`
+O projeto pode ser aberto no **IntelliJ IDEA** como projeto Maven, ou executado pelo Maven Wrapper.
 
-### Desenvolvimento de aplicações
+Executar os testes:
 
-- Programação Orientada a Objetos
-- SOLID
-- Interfaces
-- Abstração
-- Encapsulamento
-- Polimorfismo
-- Separação de responsabilidades
-- Baixo acoplamento
-- Tratamento de exceções
+```bash
+# Windows
+mvnw.cmd test
 
-### Integração e persistência
+# Linux / macOS
+./mvnw test
+```
 
-- HTTP
-- API REST
-- `HttpClient`
-- JSON
-- Arquivos
-- CSV
-- Processamento de dados
+Compilar o projeto:
 
-### Testes
+```bash
+# Windows
+mvnw.cmd clean package
 
-- JUnit
-- Mockito
-- Testes automatizados
-- Mocks
-- Validação de cenários de sucesso e erro
+# Linux / macOS
+./mvnw clean package
+```
 
-### Ferramentas
+Os diretórios `target/` e os arquivos da IDE não são versionados, conforme o `.gitignore`.
 
-- Java
-- Maven
-- IntelliJ IDEA
-- Git
-- GitHub
+## 🎯 Objetivo acadêmico
 
----
+Mostrar como os recursos do Java podem ser combinados para **transformar um conjunto de dados bruto em informações úteis para análise**.
+
+Este repositório faz parte do portfólio acadêmico da Pós-Graduação em Desenvolvimento Java.
